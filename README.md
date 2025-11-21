@@ -32,7 +32,7 @@ Raw text data is rarely ready for modeling. Extensive cleaning was performed to 
 * **Text Normalization:**
     * Text was converted to lowercase.
     * Punctuation and special characters were stripped.
-    * Numbers and masked data (e.g., "XXXX") were removed to focus on semantic meaning.
+    * Numbers and masked data were removed to focus on semantic meaning.
 * **Lemmatization:** Using spaCy, words were reduced to their root form (e.g., "paying" $\rightarrow$ "pay"). Specifically, the pipeline focused on extracting **Nouns**, as they are the strongest indicators of the subject matter (Topic).
 
 ### 2. Feature Extraction
